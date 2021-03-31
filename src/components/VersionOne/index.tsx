@@ -27,11 +27,17 @@ export const VersionOne = () => {
     <div className="p-4 border border-black">
       <div className="grid items-center justify-center">
         <div className="relative">
-          <img src="/icon.png" alt="" width="200" height="200" className="opacity-0" />
+          <img
+            src="https://jp.vuejs.org/images/logo.png"
+            alt=""
+            width="200"
+            height="200"
+            className="opacity-0"
+          />
           {style.map((style, i) => {
             return (
               <img
-                src="/icon.png"
+                src="https://jp.vuejs.org/images/logo.png"
                 alt=""
                 width="200"
                 height="200"
