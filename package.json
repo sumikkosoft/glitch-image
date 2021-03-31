@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build --base=/sumikkosoft/glitch-image/"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
