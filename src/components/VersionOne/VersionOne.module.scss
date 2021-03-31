@@ -9,15 +9,13 @@
   );
 }
 
-
-
 @keyframes fluffy {
   0% { transform:translateX(0) }
   5% { transform:translateX(0) }
   10% { transform:translateX(0) }
-  20% { transform:translateX(-15px) }
+  20% { transform:translateX(var(--left, -15px)) }
   25% { transform:translateX(0) }
-  30% { transform:translateX(-15px) }
+  30% { transform:translateX(var(--left, -15px)) }
   50% { transform:translateX(0) }
   100% { transform:translateX(0) }
 }

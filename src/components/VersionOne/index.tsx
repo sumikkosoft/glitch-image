@@ -11,13 +11,15 @@ export const VersionOne = () => {
     const rS = Math.random() * 2
 
     const direction = Math.floor(Math.random() * 10) > 5 ? 'nomal' : 'reverse'
+    const left = Math.random() * 5 + 10 * (Math.random() * 10 > 5 ? 1 : -1)
 
     return {
       '--gi-clip-top': `${clipTop}%`,
       '--gi-clip-bottom': `${clipBottom}%`,
       '--rundum-d': `${rD}s`,
       '--rundum-s': `${rS}s`,
-      '--direction': direction
+      '--direction': direction,
+      '--left': `${left}%`
     } as React.CSSProperties
   })
 
