@@ -1,0 +1,23 @@
+.base{
+  animation: fluffy var(--rundum-s, 0s) ease var(--rundum-d, 0s) var(--direction, nomal) infinite;
+
+  clip-path: polygon(
+    0% var(--gi-clip-top, 0%),
+    100% var(--gi-clip-top, 0%),
+    100% var(--gi-clip-bottom, 100%),
+    0% var(--gi-clip-bottom, 100%)
+  );
+}
+
+
+
+@keyframes fluffy {
+  0% { transform:translateX(0) }
+  5% { transform:translateX(0) }
+  10% { transform:translateX(0) }
+  20% { transform:translateX(-15px) }
+  25% { transform:translateX(0) }
+  30% { transform:translateX(-15px) }
+  50% { transform:translateX(0) }
+  100% { transform:translateX(0) }
+}
