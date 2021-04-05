@@ -348,7 +348,7 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
-"@typescript-eslint/eslint-plugin@^4.16.1", "@typescript-eslint/eslint-plugin@^4.19.0":
+"@typescript-eslint/eslint-plugin@^4.16.1", "@typescript-eslint/eslint-plugin@^4.20.0":
   version "4.20.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.20.0.tgz#9d8794bd99aad9153092ad13c96164e3082e9a92"
   integrity sha512-sw+3HO5aehYqn5w177z2D82ZQlqHCwcKSMboueo7oE4KU9QiC0SAgfS/D4z9xXvpTc8Bt41Raa9fBR8T2tIhoQ==
@@ -374,7 +374,7 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.16.1", "@typescript-eslint/parser@^4.19.0":
+"@typescript-eslint/parser@^4.16.1", "@typescript-eslint/parser@^4.20.0":
   version "4.20.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.20.0.tgz#8dd403c8b4258b99194972d9799e201b8d083bdd"
   integrity sha512-m6vDtgL9EABdjMtKVw5rr6DdeMCH3OA1vFb0dAyuZSa3e5yw1YRzlwFnm9knma9Lz6b2GPvoNSa8vOXrqsaglA==
@@ -418,10 +418,10 @@
     "@typescript-eslint/types" "4.20.0"
     eslint-visitor-keys "^2.0.0"
 
-"@vitejs/plugin-react-refresh@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-react-refresh/-/plugin-react-refresh-1.3.1.tgz#dfdb17e9924ba57fc4951ac882e39628051a30f4"
-  integrity sha512-VxHkrvOOTnMGWq9BveEN5ufmfDfaGxfawCymlKdF+X0RApCr0jQFzOyewhmSSCgGHjqnpRj+7TTDebjBkB3qhg==
+"@vitejs/plugin-react-refresh@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-react-refresh/-/plugin-react-refresh-1.3.2.tgz#c807c9c77694943b8e51f0a80babba6b078a3218"
+  integrity sha512-ujHk6wqY9MZh8PkjeQeeDHfds4teTD4mkG34++gVoQJgATO/Hpq7rcEYbFZ5Dyup3zlpe2jyu0gFuqznLnBUyQ==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-react-jsx-self" "^7.12.13"
@@ -979,14 +979,14 @@ eslint-config-standard@^16.0.2:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.2.tgz#71e91727ac7a203782d0a5ca4d1c462d14e234f6"
   integrity sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==
 
-eslint-config-sumikko@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sumikko/-/eslint-config-sumikko-0.4.0.tgz#5d0b080768308787bad6b8d76bf7c74bdbea4c02"
-  integrity sha512-gpUs/Gjg04+kPFEjl2FLyFrlRN5UU3OWNedm6faQetz7ICNSkfyDlhSoFsxlAseErs1iTOnf0yjLEzECsRjAZw==
+eslint-config-sumikko@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sumikko/-/eslint-config-sumikko-1.0.0.tgz#dba5e97b99907a3a431a8382f6ee0c6d3f2089ff"
+  integrity sha512-cha5ZKh+KJdMvk8mT4lO8zGHNNCYHjaMalRBNDef0Sd0ZOuGu+sBSylGh4JAM7mGQavFnofri8DXpwCyor9X3g==
   dependencies:
     "@nuxtjs/eslint-config-typescript" "^6.0.0"
-    "@typescript-eslint/eslint-plugin" "^4.19.0"
-    "@typescript-eslint/parser" "^4.19.0"
+    "@typescript-eslint/eslint-plugin" "^4.20.0"
+    "@typescript-eslint/parser" "^4.20.0"
     "@vue/eslint-config-typescript" "^7.0.0"
     eslint-config-prettier "^8.1.0"
     eslint-plugin-eslint-comments "^3.2.0"
@@ -994,11 +994,9 @@ eslint-config-sumikko@^0.4.0:
     eslint-plugin-jsdoc "^32.3.0"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-nuxt "^2.0.0"
-    eslint-plugin-prettier "^3.3.1"
-    eslint-plugin-react "^7.22.0"
+    eslint-plugin-react "^7.23.1"
     eslint-plugin-unicorn "^29.0.0"
     eslint-plugin-vue "^7.8.0"
-    prettier "^2.2.1"
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
@@ -1092,19 +1090,12 @@ eslint-plugin-nuxt@^2.0.0:
     semver "^7.3.2"
     vue-eslint-parser "^7.1.1"
 
-eslint-plugin-prettier@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz#7079cfa2497078905011e6f82e8dd8453d1371b7"
-  integrity sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==
-  dependencies:
-    prettier-linter-helpers "^1.0.0"
-
 eslint-plugin-promise@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.3.1.tgz#61485df2a359e03149fdafc0a68b0e030ad2ac45"
   integrity sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==
 
-eslint-plugin-react@^7.22.0:
+eslint-plugin-react@^7.23.1:
   version "7.23.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.23.1.tgz#f1a2e844c0d1967c822388204a8bc4dee8415b11"
   integrity sha512-MvFGhZjI8Z4HusajmSw0ougGrq3Gs4vT/0WgwksZgf5RrLrRa2oYAw56okU4tZJl8+j7IYNuTM+2RnFEuTSdRQ==
@@ -1310,11 +1301,6 @@ fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
-
-fast-diff@^1.1.2:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
-  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
 fast-glob@^3.1.1:
   version "3.2.5"
@@ -2326,18 +2312,6 @@ prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
-
-prettier-linter-helpers@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
-  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
-  dependencies:
-    fast-diff "^1.1.2"
-
-prettier@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
-  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
