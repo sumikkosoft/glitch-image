@@ -1,0 +1,28 @@
+.base {
+  clip-path: polygon(
+    0% var(--gi-clip-top, 0%),
+    100% var(--gi-clip-top, 0%),
+    100% var(--gi-clip-bottom, 100%),
+    0% var(--gi-clip-bottom, 100%)
+  );
+
+  filter: blur(1px) brightness(1.1);
+}
+
+.red {
+  transform: translateX(5px);
+  filter: blur(1px) hue-rotate(310deg);
+}
+
+.blue {
+  transform: translateX(-5px);
+  filter: blur(1px) hue-rotate(230deg);
+}
+
+.left {
+  transform: translateX(-15px);
+}
+
+.right {
+  transform: translateX(15px);
+}

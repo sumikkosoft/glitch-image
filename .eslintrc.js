@@ -12,6 +12,7 @@ module.exports = {
         allowModules: ['vite', '@vitejs/plugin-react-refresh']
       }
     ],
-    'arrow-body-style': 0
+    'arrow-body-style': 0,
+    'react/display-name': 0
   }
 }
