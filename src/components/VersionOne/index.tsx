@@ -28,7 +28,7 @@ export const VersionOne = () => {
       <div className="grid items-center justify-center">
         <div className="relative">
           <img
-            src="https://jp.vuejs.org/images/logo.png"
+            src="https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg"
             alt=""
             width="200"
             height="200"
@@ -37,7 +37,7 @@ export const VersionOne = () => {
           {style.map((style, i) => {
             return (
               <img
-                src="https://jp.vuejs.org/images/logo.png"
+                src="https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg"
                 alt=""
                 width="200"
                 height="200"
