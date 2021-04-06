@@ -30,8 +30,6 @@ export const VersionOne = () => {
           <img
             src="https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg"
             alt=""
-            width="200"
-            height="200"
             className="opacity-0"
           />
           {style.map((style, i) => {
@@ -39,8 +37,6 @@ export const VersionOne = () => {
               <img
                 src="https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg"
                 alt=""
-                width="200"
-                height="200"
                 key={i}
                 className={`${classes.base} absolute top-0 left-0`}
                 style={style}
