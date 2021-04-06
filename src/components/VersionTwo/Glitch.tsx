@@ -1,11 +1,15 @@
+import classnames from 'classnames'
 import React, { useEffect, useState } from 'react'
 import classes from './VersionTwo.module.scss'
 
 // const MAX_COUNT = 5
 // const WAIT_TIME = 1000
 
-export const GlitchImage: React.VFC<{ src: string; alt: string }> = React.memo((props) => {
-  const [hash, setHash] = useState<number>(0)
+type Image = { src: string; alt: string }
+// type State = { hash: number }
+
+export const GlitchImage: React.VFC<Image> = (props) => {
+  const [hash, setHash] = useState<number>(Math.random())
   useEffect(() => {
     setInterval(() => {
       setHash(Math.random())
@@ -17,9 +21,12 @@ export const GlitchImage: React.VFC<{ src: string; alt: string }> = React.memo((
         <img
           src={props.src}
           alt={props.alt}
-          className={`${hash < 0.2 ? classes.left : classes.right} transition-transform`}
+          className={classnames({
+            [classes.red]: hash < 0.2,
+            [classes.blue]: hash > 0.8
+          })}
         />
       </div>
     </div>
   )
-})
+}
